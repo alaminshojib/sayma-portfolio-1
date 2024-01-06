@@ -1,0 +1,166 @@
+/* Universal Styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+    /* margin: 0; */
+}
+
+/* Header Section */
+.header {
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #fff8f3;
+    /* background: linear-gradient(25deg, rgb(175, 175, 236), rgb(237, 136, 136)); */
+    box-shadow: #181818 1px 2px 50px;
+    border-radius: 15px;
+    padding-top: 35px;
+}
+
+
+/* Nav Styles */
+
+.sayma_style {
+    color: #181818;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.sayma_image {
+    width: 400px;
+    height: 500px;
+}
+
+.span_m {
+    color: #FD6E0A;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.list_decoration {
+    list-style-type: none;
+    display: flex;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 50px;
+    align-items: center;
+
+}
+
+
+.list_decoration a {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.button_style {
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    border: 0;
+}
+
+.button_style1 {
+    width: 130px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background: #FFF8F3;
+}
+
+/* Heroine Style */
+.heroine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroine_descript {
+    text-align: left;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+/* Main Section */
+.what-i-do,
+.about,
+.foot_container {
+    border-radius: 15px;
+    background: #fff8f3;
+    text-align: center;
+    padding: 100px 200px 100px;
+    background: linear-gradient(25deg, rgb(239, 241, 199), rgb(231, 232, 220));
+    box-shadow: #0c050d00 1px 2px 50px;
+
+}
+
+.about_me {
+    font-size: 40px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* .about-info{
+    border: #FD6E0A;
+    
+        border-radius: 5px;
+} */
+
+
+.what-i-do {
+    text-align: center;
+
+}
+
+.skill-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.skills {
+    border: #FD6E0A;
+    box-sizing: 5px;
+    gap: 2px;
+    margin: 5px;
+    background: linear-gradient(45deg, rgb(239, 241, 199), rgb(214, 201, 201));
+}
+
+.skill-descript {
+    text-align: left;
+}
+
+
+/* Footer Style */
+.foot_container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
+.form input {
+    display: block;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+.foot_cont_list1{
+    margin-left: 200px;
+}
